@@ -15,7 +15,7 @@ export const useSearch = () => {
       return
     }
     if (query.length < 3) {
-      setError('Debe ingresar almenos 3 letras')
+      setError('Debe ingresar al menos 3 letras')
       return
     }
     setError(null)
